@@ -2,6 +2,7 @@ import * as Mailchimp from 'mailchimp-api-v3';
 import { IMailLists, IMailingList, IMailchimpTemplateFolder, IMailchimpTemplate } from './mailchimp.model';
 import { IResortCustomerTemplate } from '../resort-customers/resort-customers.model';
 import * as moment from 'moment-timezone';
+import { Response } from '@angular/http';
 
 export class MailchimpDao {
     private mailchimpApiKey = '579e812841299b40988a9bd905d2ac9f-us17';
